@@ -193,4 +193,3 @@ Output in `dist/` folder ready to deploy. Supports any static hosting (Netlify, 
 - The Geist font is loaded from `node_modules` via `@font-face` in `index.css` -- make sure to run `npm install` before dev
 - The digital rain animation respects `prefers-reduced-motion` media query
 - React Router uses `BrowserRouter` -- configure your hosting for SPA fallback (redirect all routes to `index.html`)
-# Test commit
