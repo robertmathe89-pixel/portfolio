@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 33% 3%;
+    --foreground: 240 10% 92%;
+    --card: 240 33% 3%;
+    --card-foreground: 240 10% 92%;
+    --popover: 240 33% 3%;
+    --popover-foreground: 240 10% 92%;
+    --primary: 193 100% 50%;
+    --primary-foreground: 240 33% 3%;
+    --secondary: 240 20% 7%;
+    --secondary-foreground: 240 10% 92%;
+    --muted: 240 10% 16%;
+    --muted-foreground: 240 5% 55%;
+    --accent: 193 100% 50%;
+    --accent-foreground: 240 33% 3%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 100% / 0.08;
+    --input: 240 10% 16%;
+    --ring: 193 100% 50%;
+    --radius: 8px;
+  }
+
+  body {
+    @apply text-[#E8E8EC];
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    background: #06060A;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+  }
+
+  ::selection {
+    background: rgba(0, 212, 255, 0.25);
+    color: #E8E8EC;
+  }
+}
+
+@layer components {
+  .nav-link {
+    position: relative;
+    color: #8A8A95;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #00D4FF;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .nav-link:hover {
+    color: #00D4FF;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #00D4FF;
+  }
+
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.3), transparent);
+  }
+
+  .liquid-glass-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 36px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    background: transparent;
+    color: #00D4FF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .liquid-glass-btn:hover {
+    background: rgba(0, 212, 255, 0.08);
+    border-color: rgba(0, 212, 255, 0.6);
+    transform: translateY(-1px);
+  }
+}
