@@ -217,8 +217,8 @@ export interface ArchitectureConfig {
 export const architectureConfig: ArchitectureConfig = {
   sectionLabel: "HOW I WORK",
   videoPath: "/videos/process-video.mp4",
-  title: "A Proven Process for Complex Systems",
-  description: "Every project follows a structured methodology refined across dozens of production deployments. From initial discovery through architecture, implementation, and ongoing support — I deliver systems that are built to last.",
+  title: "A Process Built for Real Projects",
+  description: "Every project starts with understanding your actual needs. No buzzwords, no overengineering. I scope the work, build iteratively, and deliver on time.",
 };
 
 // ============================================================
