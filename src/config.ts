@@ -24,10 +24,10 @@ export interface SocialConfig {
 }
 
 export const socialConfig: SocialConfig = {
-  github: "https://github.com",
+  github: "https://github.com/robertmathe89-pixel",
   linkedin: "https://linkedin.com",
   twitter: "https://twitter.com",
-  email: "robert@neural.systems",
+  email: "ai.studioprojects2025@gmail.com",
 };
 
 // ============================================================
@@ -83,8 +83,8 @@ export interface HeroConfig {
 
 export const heroConfig: HeroConfig = {
   title: "ROBERT",
-  subtitleLine1: "AI Systems Architect \u0026 Full-Stack Developer",
-  subtitleLine2: "I design and automate intelligent systems that think, learn, and scale.",
+  subtitleLine1: "Full-Stack Developer \u0026 Automation Specialist",
+  subtitleLine2: "I build modern web apps, automation workflows, and AI-powered tools that save time and scale.",
   ctaText: "VIEW MY WORK",
 };
 
@@ -108,27 +108,27 @@ export const capabilitiesConfig: CapabilitiesConfig = {
   sectionLabel: "WHAT I DO",
   items: [
     {
-      title: "AI AUTOMATION",
-      slug: "ai-automation",
-      description: "End-to-end AI pipeline architecture — from data ingestion and model training to deployment and monitoring. I build autonomous agents, RAG systems, and workflow automation that reduces operational overhead by 80%.",
+      title: "WEB DEVELOPMENT",
+      slug: "web-development",
+      description: "Modern web applications built with Next.js, React, and TypeScript. From responsive landing pages to full-stack dashboards with API integrations and database design. I ship clean, maintainable code.",
       image: "images/cap-icon-1.png",
     },
     {
-      title: "FULL-STACK DEVELOPMENT",
-      slug: "full-stack-dev",
-      description: "Production-grade web applications built with modern architectures. From reactive frontends to scalable backends, API design, and cloud infrastructure. I ship fast, clean, and maintainable code.",
+      title: "API & INTEGRATIONS",
+      slug: "api-integrations",
+      description: "Connecting tools and services through REST, GraphQL, and OAuth. Gmail, Google Sheets, Notion, Slack, and custom APIs. I build the automation layer that makes your apps talk to each other.",
       image: "images/cap-icon-2.png",
     },
     {
-      title: "SYSTEMS ARCHITECTURE",
-      slug: "systems-architecture",
-      description: "Designing resilient, scalable system architectures. Microservices, event-driven patterns, container orchestration, and cloud-native infrastructure on AWS and GCP.",
+      title: "AUTOMATION & BOTS",
+      slug: "automation-bots",
+      description: "Scheduled scripts, web scrapers, data pipelines, and Telegram bots. I automate repetitive tasks so you can focus on what matters. From job scouting to email workflows to image generation pipelines.",
       image: "images/cap-icon-3.png",
     },
     {
-      title: "API \u0026 INTEGRATIONS",
-      slug: "api-integrations",
-      description: "Seamless third-party integrations and custom API development. Payment gateways, CRM connections, real-time data streams, and webhook automation that connects your entire stack.",
+      title: "AI-POWERED TOOLS",
+      slug: "ai-tools",
+      description: "Practical AI integrations using ComfyUI for local image generation, Gemini API for content creation, and smart automation. Privacy-first AI that runs on your hardware or via secure APIs.",
       image: "images/cap-icon-4.png",
     },
   ],
@@ -160,44 +160,44 @@ export const capabilityDetailConfig: CapabilityDetailConfig = {
   nextLabel: "Next",
   notFoundText: "Capability not found.",
   capabilities: {
-    "ai-automation": {
-      title: "AI Automation",
-      subtitle: "Building autonomous systems that learn, adapt, and execute.",
+    "web-development": {
+      title: "Web Development",
+      subtitle: "Modern applications built for performance and user experience.",
       paragraphs: [
-        "Modern businesses are drowning in repetitive tasks and data pipelines that demand constant human attention. I architect AI automation systems that transform how organizations operate — from intelligent document processing and autonomous customer support agents to predictive analytics pipelines that anticipate problems before they occur.",
-        "My approach combines Large Language Models with traditional ML techniques, wrapped in robust orchestration frameworks. I specialize in Retrieval-Augmented Generation (RAG) systems that ground AI responses in your organization's actual data, ensuring accuracy and relevance. These systems integrate seamlessly with existing workflows through custom APIs and webhook automation.",
-        "Every automation project begins with a thorough audit of current processes. I identify the highest-impact opportunities where AI can deliver measurable ROI — typically reducing manual processing time by 60-80% while improving accuracy. The systems I build are designed for production from day one, with comprehensive monitoring, error handling, and human-in-the-loop fallback mechanisms.",
-        "Recent projects include an autonomous support agent that handles 85% of Tier-1 inquiries without human intervention, a document intelligence pipeline that processes 10,000+ documents daily with 99.2% accuracy, and a predictive maintenance system that reduced downtime by 40% for a manufacturing client.",
-      ],
-    },
-    "full-stack-dev": {
-      title: "Full-Stack Development",
-      subtitle: "Production-grade applications built for scale and speed.",
-      paragraphs: [
-        "I build complete web applications that handle real-world complexity — from real-time collaborative dashboards to high-throughput API services serving millions of requests. My stack is modern and battle-tested: React and TypeScript on the frontend, Node.js and PostgreSQL on the backend, deployed on cloud-native infrastructure.",
-        "The frontend work I deliver prioritizes performance and user experience. I implement progressive loading strategies, optimistic UI updates, and sophisticated state management that keeps applications responsive under heavy data loads. Every interface is built with accessibility in mind, following WCAG 2.1 AA standards.",
-        "On the backend, I design API architectures that scale horizontally. GraphQL for flexible data fetching, REST for third-party integrations, and WebSockets for real-time features. Database design follows normalization best practices with strategic denormalization where query performance demands it. Caching layers, connection pooling, and query optimization ensure sub-100ms response times at scale.",
-        "Recent deliveries include a multi-tenant SaaS analytics platform serving 50,000+ daily active users, a real-time trading interface processing $2M+ in daily volume, and an e-commerce platform with a custom recommendation engine that increased average order value by 23%.",
-      ],
-    },
-    "systems-architecture": {
-      title: "Systems Architecture",
-      subtitle: "Resilient infrastructure designed for growth and reliability.",
-      paragraphs: [
-        "System architecture is the foundation that determines whether your product thrives or collapses under growth. I design infrastructure that scales gracefully — from containerized microservices on Kubernetes to event-driven architectures that handle millions of events per second with sub-second latency.",
-        "My architectural practice emphasizes resilience through redundancy, circuit breakers, and graceful degradation. Every system includes comprehensive observability — distributed tracing, structured logging, and intelligent alerting that catches issues before they impact users. I implement Infrastructure as Code (Terraform/Pulumi) ensuring environments are reproducible and changes are auditable.",
-        "Cloud strategy is tailored to each project's needs. AWS and GCP are my primary platforms, with deep expertise in serverless architectures (Lambda, Cloud Functions), managed Kubernetes (EKS, GKE), and managed databases (RDS, Cloud SQL, BigQuery). Cost optimization is built into every design decision — right-sizing instances, leveraging spot pricing, and implementing intelligent auto-scaling.",
-        "Notable architecture projects include designing a cloud migration strategy for a fintech company processing $500M+ annually, building an event-driven microservices platform handling 10M+ daily transactions, and implementing a zero-downtime deployment pipeline that reduced release cycles from monthly to daily.",
+        "I build complete web applications using Next.js, React, and TypeScript. From responsive landing pages that convert visitors to full-stack dashboards with real-time data. My frontend work prioritizes clean UI, smooth animations, and mobile-first responsive design.",
+        "The backend work I deliver includes RESTful and GraphQL APIs, database design with PostgreSQL and Supabase, and secure authentication flows. I implement proper error handling, input validation, and API documentation that makes integration straightforward.",
+        "Every project follows modern development practices: component-based architecture, TypeScript for type safety, Git for version control, and CI/CD via Vercel or GitHub Actions. I write code that's meant to be maintained — clean, documented, and tested.",
+        "Recent work includes an AI portfolio site with live image generation integration, a job scouting automation system that delivers 20+ curated leads daily, and multiple client landing pages built with Next.js and Tailwind CSS.",
       ],
     },
     "api-integrations": {
       title: "API \u0026 Integrations",
-      subtitle: "Connecting your entire technology stack seamlessly.",
+      subtitle: "Connecting your tools and services into automated workflows.",
       paragraphs: [
-        "Modern businesses rely on dozens of specialized tools — CRMs, payment processors, analytics platforms, communication APIs. I build the integration layer that connects these systems into a cohesive, automated workflow. Custom API development, third-party integrations, and real-time data synchronization are my core expertise.",
-        "Payment integration is a particular specialty. I've implemented Stripe, PayPal, and custom payment gateway integrations for platforms processing millions in transaction volume. This includes subscription billing with proration, multi-currency support, automated invoicing, and comprehensive reconciliation reporting.",
-        "Real-time data pipelines are another focus area. I build WebSocket-based systems for live dashboards, webhook receivers with idempotency guarantees, and event streaming architectures using Kafka or cloud-native equivalents. These systems maintain data consistency across distributed services with robust error handling and automatic retry mechanisms.",
-        "Recent integration work includes connecting a Salesforce CRM to a custom ERP via bi-directional sync, implementing a real-time inventory system across 12 warehouse locations, and building a unified analytics pipeline that aggregates data from 8 different marketing platforms into a single source of truth.",
+        "I build the integration layer that connects your apps and services. Gmail, Google Sheets, Notion, Slack, Telegram, and custom APIs — I make them talk to each other through REST, GraphQL, and OAuth. Whether it's syncing data between platforms or triggering actions across tools, I design workflows that eliminate manual work.",
+        "My integration work includes Composio multi-tool setups, custom webhook receivers, scheduled data pipelines, and Telegram bot automations. I handle authentication flows, rate limiting, error retry logic, and idempotency to ensure reliable data transfer even when services are temporarily unavailable.",
+        "For custom APIs, I design clean RESTful endpoints with proper HTTP semantics, request validation, and comprehensive documentation. GraphQL APIs when clients need flexible data fetching. Every integration includes logging and monitoring so you can track data flow and catch issues before they impact operations.",
+        "Recent work includes a workflow automation hub connecting Gmail, Sheets, Notion, Slack, and Calendar through Composio, a Telegram bot that delivers curated job leads from multiple freelance platforms, and an email automation system that handles SMTP and IMAP integrations.",
+      ],
+    },
+    "automation-bots": {
+      title: "Automation & Bots",
+      subtitle: "Scheduled scripts and bots that eliminate repetitive work.",
+      paragraphs: [
+        "I build automation systems that handle the boring stuff so you don't have to. Scheduled job scouts that monitor freelance platforms and deliver curated leads via Telegram. Email workflows that process, categorize, and respond automatically. Data pipelines that sync information across multiple tools without manual copy-pasting.",
+        "My automation stack includes Node.js for scripting, GitHub Actions for CI/CD scheduling, cron jobs for recurring tasks, and Telegram Bot API for notifications. I build scrapers with Puppeteer and Playwright that navigate complex sites, extract structured data, and deliver it where you need it.",
+        "Every automation includes error handling, retry logic, and logging so you know when something breaks. I design them to be resilient — if a service is down, the script waits and retries rather than crashing. Notifications keep you informed without overwhelming you.",
+        "Recent projects include a Freelance Scout that scrapes PeoplePerHour and Freelancer.com daily, scores opportunities by skill match and budget, and delivers the top 10 to Telegram with full analysis. An email automation system that connects Gmail via SMTP and IMAP. And a ComfyUI image generation pipeline that creates AI art on local GPU.",
+      ],
+    },
+    "ai-tools": {
+      title: "AI-Powered Tools",
+      subtitle: "Practical AI that works on your hardware and your terms.",
+      paragraphs: [
+        "I build AI-powered tools that are practical, not theoretical. Local image generation with ComfyUI running entirely on your GPU — no cloud APIs, no data leaks, no monthly fees. Content generation through Gemini API for when you need quick copy, translations, or creative ideas. Smart automation that uses AI to make decisions without human intervention.",
+        "The ComfyUI pipeline I built generates 768×1024 images in ~10 minutes on a GTX 1050 Ti, with custom workflows for photorealistic portraits, concept art, and creative compositions. The system is fully configurable — change prompts, adjust parameters, or swap models. All processing happens locally, ensuring complete privacy.",
+        "For API-based AI, I integrate Gemini and other models through secure connections with proper error handling and rate limiting. These integrations are built into existing workflows — an AI that generates portfolio copy, a bot that summarizes articles, or a pipeline that creates social media assets from text prompts.",
+        "Recent work includes an AI portfolio site with live image generation, a cyberpunk-style concept art pipeline, and automated content generation workflows that produce blog drafts, social posts, and product descriptions from simple prompts.",
       ],
     },
   },
@@ -243,75 +243,43 @@ export const researchConfig: ResearchConfig = {
   sectionLabel: "SELECTED WORK",
   projects: [
     {
-      title: "Autonomous Support Agent",
+      title: "Freelance Job Scout",
       year: "2025",
-      discipline: "AI Automation",
+      discipline: "Automation",
       image: "images/proj-img-1.jpg",
-      href: "https://github.com",
+      href: "https://github.com/robertmathe89-pixel",
       external: true,
     },
     {
-      title: "Real-Time Analytics Platform",
+      title: "AI Portfolio Site",
       year: "2025",
       discipline: "Full-Stack",
       image: "images/proj-img-2.jpg",
-      href: "https://github.com",
+      href: "https://ai-portfolio-delta-eight.vercel.app",
       external: true,
     },
     {
-      title: "E-Commerce Recommendation Engine",
-      year: "2024",
-      discipline: "AI / ML",
+      title: "ComfyUI Image Pipeline",
+      year: "2025",
+      discipline: "AI Tools",
       image: "images/proj-img-3.jpg",
-      href: "https://github.com",
+      href: "https://github.com/robertmathe89-pixel",
       external: true,
     },
     {
-      title: "Cloud Infrastructure Migration",
-      year: "2024",
-      discipline: "DevOps",
+      title: "Workflow Automation Hub",
+      year: "2025",
+      discipline: "Integrations",
       image: "images/proj-img-1.jpg",
-      href: "https://github.com",
+      href: "https://github.com/robertmathe89-pixel",
       external: true,
     },
     {
-      title: "Multi-Tenant SaaS Platform",
+      title: "Email Automation System",
       year: "2024",
-      discipline: "Full-Stack",
+      discipline: "Backend",
       image: "images/proj-img-2.jpg",
-      href: "https://github.com",
-      external: true,
-    },
-    {
-      title: "Document Intelligence Pipeline",
-      year: "2023",
-      discipline: "AI Automation",
-      image: "images/proj-img-3.jpg",
-      href: "https://github.com",
-      external: true,
-    },
-    {
-      title: "IoT Data Processing System",
-      year: "2023",
-      discipline: "Systems",
-      image: "images/proj-img-1.jpg",
-      href: "https://github.com",
-      external: true,
-    },
-    {
-      title: "Payment Gateway Integration",
-      year: "2023",
-      discipline: "API",
-      image: "images/proj-img-2.jpg",
-      href: "https://github.com",
-      external: true,
-    },
-    {
-      title: "Portfolio Generator Tool",
-      year: "2023",
-      discipline: "Full-Stack",
-      image: "images/proj-img-3.jpg",
-      href: "https://github.com",
+      href: "https://github.com/robertmathe89-pixel",
       external: true,
     },
   ],
@@ -337,22 +305,10 @@ export const testimonialsConfig: TestimonialsConfig = {
   sectionLabel: "CLIENT WORDS",
   items: [
     {
-      quote: "Robert transformed our entire customer support operation. The AI agent he built now handles 85% of our Tier-1 tickets with better accuracy than our human team. ROI was visible within the first month.",
-      author: "Sarah Chen",
-      role: "VP of Operations",
-      company: "TechFlow Inc.",
-    },
-    {
-      quote: "We brought Robert in to architect our cloud migration and he delivered beyond expectations. Zero downtime, 40% cost reduction, and a deployment pipeline that lets us ship daily instead of monthly.",
-      author: "Marcus Johnson",
-      role: "CTO",
-      company: "FinScale",
-    },
-    {
-      quote: "The full-stack platform Robert built for us scaled from 0 to 50,000 daily active users without a hiccup. His attention to performance and clean architecture saved us months of technical debt.",
-      author: "Elena Rodriguez",
-      role: "Product Lead",
-      company: "DataVision",
+      quote: "Currently building my reputation as a freelancer. I'm offering priority scheduling and dedicated attention to my first clients. Let's work together and I'll earn your trust through results.",
+      author: "Robert Mathe",
+      role: "Full-Stack Developer",
+      company: "Timișoara, Romania",
     },
   ],
 };
@@ -384,10 +340,10 @@ export const footerLinkMap: Record<string, string> = {
   "Process": "#process",
   "Work": "#work",
   "Contact": "#contact",
-  "AI Automation": "/capability/ai-automation",
-  "Web Development": "/capability/full-stack-dev",
-  "Systems Architecture": "/capability/systems-architecture",
-  "API Integration": "/capability/api-integrations",
+  "Web Development": "/capability/web-development",
+  "API & Integrations": "/capability/api-integrations",
+  "Automation & Bots": "/capability/automation-bots",
+  "AI-Powered Tools": "/capability/ai-tools",
 };
 
 export const footerConfig: FooterConfig = {
@@ -399,10 +355,10 @@ export const footerConfig: FooterConfig = {
     },
     {
       title: "Services",
-      links: ["AI Automation", "Web Development", "Systems Architecture", "API Integration"],
+      links: ["Web Development", "API \u0026 Integrations", "Automation \u0026 Bots", "AI-Powered Tools"],
     },
   ],
-  copyright: "\u00A9 2025 Robert. All rights reserved.",
+  copyright: "\u00A9 2026 Robert Mathe. All rights reserved.",
   bottomLinks: [
     { label: "GitHub", href: socialConfig.github, external: true },
     { label: "LinkedIn", href: socialConfig.linkedin, external: true },
